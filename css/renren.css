@@ -1,0 +1,506 @@
+﻿html {overflow-y:scroll;}
+body {margin:0; padding:0px 0 0; font:12px/1.5 \5b8b\4f53,Arial,sans-serif;background:#ffffff;}
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,p{padding:0; margin:0;}
+table,td,tr,th{font-size:12px;}
+ol,ul {list-style:none;}
+li{list-style-type:none;}
+img{vertical-align:top;border:0;}
+h1,h2,h3,h4,h5,h6{font-size:inherit; font-weight:normal;}
+address,cite,code,em,th,i{font-weight:normal; font-style:normal;}
+.hx a,.hx em,.fB{font-weight:bold;}
+.clearfix{*zoom:1;}
+.clearfix:after{display:block; overflow:hidden; clear:both; height:0; visibility:hidden; content:".";}
+a:link,a:visited{
+	color:#0094D5;
+ 	text-decoration: none;
+ 	font-family: "Arial";
+ 	font-size: 12px;
+ 	
+}
+.flo{
+float: left;
+}
+a:hover{
+	text-decoration: underline;
+	color:#0094D5;
+	font-size: 12px;
+}
+a:active{color:#005EAC;}
+.clear{
+	clear: both;
+}
+#headbg{
+	background:url(../images/bg.png) white repeat-x left top;
+	height: 74px;
+}
+ #headbg #nvb{
+	margin: 0 auto;/*顶部包围中部的盒子用来压在背景上*/
+	width: 980px;
+	height: 72px;
+	
+}
+ #headbg #nvb #nvb_logo{
+	float: left;
+	height: 72px;
+	margin-right: 35px;
+}
+ #headbg #nvb #nvb_left{
+	float: left;
+	padding:25px 0 0 0;
+	height: 47px;
+	
+}
+#headbg #nvb #nvb_right{
+	font-size: 12px;
+	float: right;
+	padding:25px 0 0 0;
+	color: white;
+}
+ #headbg #nvb #nvb_right a:link,#headbg #nvb #nvb_right a:visited{
+	color: white;
+ 	text-decoration: none;
+ 	font-family: "Arial";
+ 	font-size: 12px;
+ 	
+}
+#headbg #nvb #nvb_right span{
+	padding:2px 20px 26px 0;
+background:url(../images/jingling.png) no-repeat -1px -471px;
+}
+#headbg #nvb #nvb_right a:hover{
+	text-decoration: underline;
+	color: white;
+	font-size: 12px;
+}
+#headbg #nvb #nvb_right a:active{color:white;}
+
+#headbg #nvb #nvb_right .r1 ,#headbg #nvb #nvb_right .r2,#headbg #nvb #nvb_right .r3{
+	float: left;
+	margin-left: 25px;
+}
+#main{
+	margin: 0 auto;
+	width: 980px;
+	height:696px;
+	margin-bottom: 10px;
+
+}
+#main #left{
+	float: left;
+	width: 191px;
+	overflow: hidden;
+	margin-right: 35px;
+	border: 1px solid #d4d4d4;
+	border-bottom-color: #AAA;
+	border-top: 0;
+	height: 663px;
+	box-shadow: 0 1px 1px #CCC;
+	background: #ebf2fa url(../images/main_1.png) left top no-repeat;
+	margin-top: -2px;
+	padding: 31px 15px 0 14px ;
+}
+#main #left .span1{
+	display: block;
+	
+	padding-top: 10px
+	padding-left: 20px;
+	float: left;
+}
+#main #left .left_1{
+	overflow:hidden;
+	width: 150px;
+	height: 36px;
+	border: 1px solid gray;
+	line-height: 36px;
+	font-size: 18px;
+	margin-bottom: 17px;
+	padding: 0 15px;
+	padding-left: 30px;
+	box-shadow: 0 1px 1px #CCC;/*<input type="text" name="email" class="input-text" id="email" tabindex="2" value="" style="color: rgb(136, 136, 136);">*/
+}
+#main #left .le1{
+background: url(../images/jingling.png) no-repeat 8px -61px;
+}
+#main #left .le2{
+background: url(../images/jingling.png) no-repeat 10px -91px;
+}
+#main #left .left_1 .tex,#main #left .left_2 .tex{
+	display: block;
+	height:36px;
+	width: 150px;
+	float: left; 
+	padding-left: 15px;
+	border: 0px;
+	color: gray;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	background-color: none;
+}
+#main #left .span1 .p1{
+	width: 160px;
+	height: 36px;
+	 line-height: 36px;
+	 float: right;
+
+}
+#main #left .left_2{
+	width: 162px;
+	height: 36px;
+	border: 1px solid gray;
+	line-height: 36px;
+	font-size: 18px;
+	margin-bottom: 17px;
+	padding: 0 15px;
+	 background: url(../images/jingling.png) no-repeat 16px -91px;
+	box-shadow: 0 1px 1px #CCC;
+}
+#main #left .left_3{
+	width: 192px;
+	font-size: 18px;
+	margin-bottom: 13px;
+	font-size: 8px;
+	color:#333333;
+}
+#main #left .left_3 span{
+	float: right;
+	display: block;
+}
+#main #left .left_3 a{
+	text-decoration: none;
+	color: #005EAC;
+}
+#main #left .left_4{
+	width: 192px;
+	height: 39px;
+	margin-bottom: 14px;
+	 background: url(../images/loan.png) no-repeat 0px 2px;
+	}
+	#main #left .left_5{
+	width: 192px;
+	height: 1px;
+	margin-bottom: 15px;
+	 background: url(../images/loan.png) no-repeat 0px -233px;
+	}
+	#main #left .left_6{
+	width: 192px;
+	height: 39px;
+	margin-bottom: 34px;
+	background: url(../images/loan.png) no-repeat 0px -37px;
+	}
+	
+	#main #left .left_7{/*新生登录*/
+	width: 192px;
+	height: 38px;
+	margin-bottom: 21px;
+	background: url(../images/loan.png) no-repeat 0px -267px;
+	}
+#main #left .left_8{/*新生登录*/
+	width: 192px;
+	height: 38px;
+	margin-bottom: 34px;
+	background: url(../images/loan.png) no-repeat 0px -314px;
+	}
+	#main #left h3{
+		line-height: 15px;
+		font-size: 10px;
+		color: #666666;
+		margin-bottom: 5px;
+	}
+	#main #left .left_9{/*新生登录*/
+	width: 192px;
+	height: 25px;
+	margin-bottom: 34px;
+	line-height: 25px;
+	
+}
+	.clear #main #left .left_9 .span{/*新生登录*/
+	width: 34px;
+	height: 25px;
+	display: block;
+	padding-left: 20px;
+	float: left;
+}
+.clear #main #left .left_9 .span1{
+background:url(../images/jingling.png) no-repeat 0px -273px;
+}	
+.clear #main #left .left_9 .span2{
+background:url(../images/jingling.png) no-repeat 0px -273px;
+}	
+.clear #main #left .left_9 .span3{
+background:url(../images/jingling.png) no-repeat 3px -303px;
+}	
+.clear #main #left .left_9 .span4{
+background:url(../images/jingling.png) no-repeat 0px -359px;
+}	
+.clear #main #left .left_9 .span5{
+background:url(../images/jingling.png) no-repeat 0px -381px;
+}	
+.clear #main #left .left_9 a:link,.clear #main #left .left_9  a:visited{
+color: #67A4C8;
+text-decoration: none;	
+}
+.clear #main #left .left_9 a:hover{
+	color: #67A4C8;
+text-decoration:underline;
+}
+#main #right{
+	width: 662px;
+	height: 629px;
+	padding:31px 60px 0 0;
+	float: right;
+}
+#main #right .r_tu1{
+	width: 662px;
+	height: 280px;
+	float: left;
+	
+}
+#main #right #middle{
+	width: 662px;
+	height:auto;
+	float: left;
+	background-color: white;
+}
+#main #right #middle .r_tu2{
+	width: 279px;
+	height: 337px;
+	float: left;
+}
+.clear #main #right #middle .r_kehuduanfather{
+	width: 229px;
+	height: 78px;
+	float: right;
+	padding: 68px 69px 0px 0px;
+	margin-bottom: 29px;
+}
+.clear #main #right #middle .r_kehuduanfather .r_kehuduan{
+	width: 224px;
+	height: 78px;
+	float: right;
+	padding-left:82px;
+	background:url(../images/loan.png) no-repeat -2px -365px;
+}
+.clear #main #right #middle .r_kehuduanfather .r_kehuduan h3{
+	font-weight: bold;
+	font-size: 24px;
+	font-family: "微软雅黑";
+	color: #333333;
+}
+.clear #main #right #middle .r_kehuduanfather .r_kehuduan p{
+	font-size: 14px;
+	font-family: "宋体";
+	color: #A8B5CB;
+}
+.clear #main #right #middle .r_loan{
+	width:383px;
+	height: 41px;
+	float: left;
+	margin-bottom: 16px;
+}
+.clear #main #right #middle .r_loan .span_1{
+	width: 146px;
+	height: 41px;
+	float: left;
+	margin-right: 12px;
+	background:url(../images/loan.png) no-repeat 1px -458px;
+}
+.clear #main #right #middle .r_loan .span_2{
+	width: 146px;
+	height: 41px;
+	float: left;
+	background:url(../images/loan.png) no-repeat -150px -458px;
+	
+}
+.clear #main #right #middle .more{
+	width:383px;
+	height: 41px;
+	float: left;
+	margin-bottom: 14px;
+	border-bottom: 1px solid gray;
+}
+
+
+.clear #main #right #middle .more a:link,.clear #main #right #middle .more a:visited{
+	color:#0094D5;
+ 	text-decoration: none;
+ 	font-family: "Arial";
+ 	font-size: 14px;
+ 	
+}
+.clear #main #right #middle .more a:hover{
+	text-decoration: underline;
+	color:#0094D5;
+}
+
+.clear #main #right #middle .more .span_1{
+	width: 72px;
+	height: 22px;
+	float: left;
+	margin-right:2px;
+	color: #888888;
+}
+.clear #main #right #middle .more .span_2{
+	width: 84px;
+	height: 22px;
+	float: left;
+	padding-left: 23px;
+	margin-right:20px;
+	background:url(../images/jingling.png) no-repeat 1px -435px;
+}
+.clear #main #right #middle .more .span_3{
+	width:84px;
+	height: 22px;
+	float: left;
+	padding-left: 30px;
+	background:url(../images/jingling.png) no-repeat 9px -410px;
+	
+}
+.clear #main #right #middle .moredown{
+	width:350px;
+	height: 25px;
+	float: left;
+	line-height:25px;
+	color:#888888;
+	overflow: hidden; 
+	font-size: 12px;
+	
+}
+.clear #main #right #middle .moredown .span_1{
+	width:60px;
+	height: 25px;
+	float: left;
+	line-height: 25px;
+}
+.clear #main #right #middle .moredown .span_2{
+	width:70px;
+	float: left;
+	margin-right: 5px;
+}
+.clear #main #right #middle .moredown .span_3{
+	width:95px;
+	float: left;
+	margin-right: 5px;
+}
+.clear #main #right #middle .moredown .span_4{
+	width:39px;
+	float: left;
+	margin-right:5px;
+}
+.clear #main #right #middle .moredown .span_5{
+	width:70px;
+	float: left;
+}
+.clear #main #right #middle .moredown a{
+	font-size: 12px;
+}
+#main #xiajiao span{
+	height:25px;
+	font: 12px/25px "微软雅黑";
+	display:inline-block;
+	width: auto;
+	padding-right: 20px;
+	background:url(../images/jingling.png) no-repeat 51px -18px;
+}
+#main #xiajiao{
+	width: 263px;
+	height: 35px;
+	float: left;
+	line-height: 35px;
+	color: #888888;
+	padding-left:233px;
+}
+.clear #foot{
+	margin: 0 auto;
+	width: 980px;
+	height:122px;
+	
+}
+.clear #foot .top{
+	width: 975px;
+	height:41px;
+	padding-right: 5px;
+}
+.clear #foot .top .span1{
+	display: block;
+	line-height: 41px;
+	width:80px;
+	height:41px;
+	float: left;
+	color: #888888;
+}
+.clear #foot .top .liebiao{
+	line-height: 41px;
+	height:41px;
+	float: right;
+}
+.clear #foot .top .liebiao ul li{
+	display: block;
+	list-style: inline;
+	line-height: 41px;
+	height:41px;
+	float: right;
+	margin-left: 15px;
+}
+.clear #foot .mid{
+	width: 975px;
+	height:80px;
+	padding-right: 5px;
+	text-align: center;
+	color: #888888;
+	margin: 0 auto;
+}
+.clear #foot .mid ul li{
+	display: block;
+	line-height: 25px;
+	height:25px;
+	width: auto;
+	float: left;
+	margin-left:5px;
+}
+.clear #foot .mid ul li span{
+	display: inline-block;
+float: left;
+}
+.clear #foot .mid li {
+display: list-item;
+
+}
+.clear #foot .mid .mid_1 {
+padding-left: 170px;
+height:26px;
+}
+
+.clear #foot .mid .mid_2 {
+padding-left:200px;
+height: 26px;
+}
+.clear .clear #foot .mid .mid_3 {
+
+height: 28px;
+}
+.clear .clear #foot .mid .mid_3 .span1{
+padding:2px 32px 26px 0;
+background:url(../images/loan.png) no-repeat -272px -12px;
+}
+.clear .clear #foot .mid .mid_3 .span2{
+padding:2px 32px 26px 0;
+background:url(../images/loan.png) no-repeat -268px -66px;
+}
+.clear .clear #foot .mid .mid_3 .span3{
+padding:2px 32px 26px 0;
+background:url(../images/loan.png) no-repeat -266px -124px;
+}
+ #foot .mid  a:link, #foot .mid  a:visited{
+	color: #888888;
+ 	text-decoration: none;
+ 	font-family: "Arial";
+ 	font-size: 12px;
+ 	
+}
+ #foot .mid  a:hover{
+	text-decoration: underline;
+	color:#888888;
+	font-size: 12px;
+}
+ #foot .mid  a:active{color: #888888;}
+
